@@ -1,0 +1,91 @@
+.intro{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 20%;
+}
+.slogan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+    text-align: center;
+    font-size: 30px;;
+    color: #FFF;
+}
+.slogan h1 span{
+    background: linear-gradient(270deg, #fff 10%, #48ACFF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slogan h1{
+    animation-name: slideUp;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+
+.icon{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    color:  #000;
+    margin-bottom: 2%;
+    background: linear-gradient(270deg, #232323 10%, #48ACFF 100%);
+    border-radius: 50%;
+    box-shadow: -3px 3px 50px #fff;
+
+    animation-name: slideUp;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.connect0{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(267deg, #5e5c5c 0.36%, #48ACFF 102.06%);
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+
+    animation-name: slideDown;
+    animation-duration: 2s;
+    animation-delay: 1s;
+}
+.connect0 h4{
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    font-size: 22px;
+    max-width: 200px;
+}
+.connect0:hover{
+    transform: scale(1.09);
+}
+
+@keyframes slideUp {
+    0%{
+        transform: translateY(-300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDown {
+    0%{
+        transform: translateY(300px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

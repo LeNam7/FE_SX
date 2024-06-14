@@ -1,0 +1,49 @@
+.fooster {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b4b6b4;
+    padding: 10px 7%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+
+.logo2 {
+    width: 160px;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.connect1 {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(270deg, #fff 10%, #48ACFF 100%);
+    box-shadow: -3px 3px 10px #501d1d;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.connect1 h4 {
+    padding: 6px;
+    background: transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0;
+    outline: 0;
+    color: #FFF;
+    font-size: 22px;
+    max-width: 200px;
+}
+
+.connect1:hover {
+    transform: scale(1.09);
+}
+
+.contact1 {
+    display: flex;
+    align-items: flex-start;
+}
