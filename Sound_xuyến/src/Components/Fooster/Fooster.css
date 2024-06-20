@@ -52,8 +52,11 @@
     width: 100%;
     font-size: 18px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 
-.contact-title1 p{
-    margin: 10px;
+.contact-title1 p {
+    margin: 20px;
 }

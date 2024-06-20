@@ -22,10 +22,10 @@ const SXFooster = () => {
 
             <div className="contact1">
                 <div className="contact-title1">
-                    <p><span> <FontAwesomeIcon icon={faPhoneVolume} size='x' color='#232323'/> Hotline:</span> 0971 870 712 - 088 689 1203</p>
-                    <p><span> <FontAwesomeIcon icon={faEnvelope} size='x' color='#232323'/> Email:</span> soundxuyen@gmail.com</p>
-                    <p><span> <FontAwesomeIcon icon={faFacebook} size='x' color='#232323'/> Facebook:</span> <a style={{ textDecoration: "none" }} href="https://www.facebook.com/soundxuyenlab">Sound Xuyến</a></p>
-                    <p><span> <FontAwesomeIcon icon={faInstagram} size='x' color='#232323'/> Instagram:</span> <a style={{ textDecoration: "none" }} href="https://www.instagram.com/soundxuyen.lab/">soundxuyen.lab</a></p>
+                    <p><span> <FontAwesomeIcon icon={faPhoneVolume} size='x' color='#232323'/> :</span> 0971 870 712  -  088 689 1203</p>
+                    <p><span> <FontAwesomeIcon icon={faEnvelope} size='x' color='#232323'/> :</span> soundxuyen@gmail.com</p>
+                    <p><span> <FontAwesomeIcon icon={faFacebook} size='x' color='#232323'/> :</span> <a style={{ textDecoration: "none" }} href="https://www.facebook.com/soundxuyenlab">Sound Xuyến</a></p>
+                    <p><span> <FontAwesomeIcon icon={faInstagram} size='x' color='#232323'/> :</span> <a style={{ textDecoration: "none" }} href="https://www.instagram.com/soundxuyen.lab/">soundxuyen.lab</a></p>
                 </div>
             </div>
 
