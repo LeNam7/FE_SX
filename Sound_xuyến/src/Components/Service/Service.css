@@ -86,6 +86,7 @@
 }
 
 .product-description {
+    align-items: flex-start;
     color: #fff;
     margin-bottom: 16px;
     padding: 30px;

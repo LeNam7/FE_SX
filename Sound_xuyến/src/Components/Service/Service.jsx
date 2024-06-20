@@ -1,7 +1,11 @@
 import React from 'react'
 import './Service.css'
 
-function ProductCard({ name, name2, topic, description, description1, description2, price, price1, price2, hours3, hours5, hours24 }) {
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck } from '@fortawesome/free-solid-svg-icons'
+import { faXmark } from '@fortawesome/free-solid-svg-icons';
+
+function ProductCard({ topic, description, description1, description2, price, price1, price2, hours3, hours5, hours24, color, color1, color2 }) {
     return (
         <div className="product-card">
             <div className="product-topic">{topic}</div>
@@ -9,9 +13,9 @@ function ProductCard({ name, name2, topic, description, description1, descriptio
             <div className="product-name">Starting from</div>
             <div className="product-name-more">{price}</div>
             <div className="product-description">
-                <p>{description}</p>
-                <p style={{ marginTop: "20px" }}>{description1}</p>
-                <p style={{ marginTop: "20px" }}>{description2}</p>
+                <p><FontAwesomeIcon icon={description} color={color} /> Tư vấn, bàn giao thiết bị</p>
+                <p style={{ marginTop: "20px" }}><FontAwesomeIcon icon={description1} color={color1} /> Hướng dẫn, hỗ trợ lắp đặt, hỗ trợ kỹ thuật</p>
+                <p style={{ marginTop: "20px" }}><FontAwesomeIcon icon={description2} color={color2} /> Kịch bản âm thanh</p>
             </div>
             <div className="product-price-container">
                 <div>
@@ -45,9 +49,12 @@ const Service = () => {
                     <ProductCard
                         topic="Basic"
                         name="Bộ mic Comica Vimo C3"
-                        description=". Tư vấn, bàn giao thiết bị"
-                        description1='. '
-                        description2=". "
+                        description={faCheck}
+                        description1={faXmark}
+                        description2={faXmark}
+                        color={'Green'}
+                        color1={'Red'}
+                        color2={'Red'}
                         price={200000}
                         price1={230000}
                         price2={250000}
@@ -61,9 +68,12 @@ const Service = () => {
                         topic="Advanced"
                         name="Bộ mic Comica Vimo C3"
                         name2='Phụ Kiện'
-                        description=". Tư vấn, bàn giao thiết bị"
-                        description1='.'
-                        description2="."
+                        description={faCheck}
+                        description1={faXmark}
+                        description2={faXmark}
+                        color={'Green'}
+                        color1={'Red'}
+                        color2={'Red'}
                         price={240000}
                         price1={270000}
                         price2={290000}
@@ -77,9 +87,12 @@ const Service = () => {
                         topic="VIP"
                         name="Bộ mic Comica Vimo C3"
                         name2='Phụ Kiện'
-                        description=". Tư vấn, bàn giao thiết bị"
-                        description1='. Hướng dẫn, hỗ trợ lắp đặt, hỗ trợ kỹ thuật'
-                        description2=". Kịch bản âm thanh"
+                        description={faCheck}
+                        description1={faCheck}
+                        description2={faCheck}
+                        color={'Green'}
+                        color1={'Green'}
+                        color2={'Green'}
                         price={300000}
                         price1={330000}
                         price2={350000}

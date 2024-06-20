@@ -1,14 +1,15 @@
 import React from 'react'
 import './header.css'
 
+import logo from '../../assets/logoSX.jpg'
+
 
 const SXheader = () => {
     return (
         <div className='header'>
 
             <div className='logo'>
-                <h1>Sound</h1>
-                <h3>Xuyến</h3>
+                <img src={logo} alt="logo" style={{width: '175px', height: '60px',  borderRadius: '15px'}}/>
             </div>
 
             <ul>
