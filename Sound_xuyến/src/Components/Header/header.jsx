@@ -19,7 +19,7 @@ const SXheader = () => {
             </ul>
 
             <a href='https://www.facebook.com/soundxuyenlab' className='connect'>
-                <h4>Conect with Us</h4>
+                <h4>Connect with Us</h4>
             </a>
 
             {/* <div className='toggle-icon'>

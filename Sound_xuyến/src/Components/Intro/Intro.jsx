@@ -12,7 +12,7 @@ const Intro = () => {
                 <h1><span>Sound xuyến</span>, Tự tin kể trọn câu chuyện</h1>
             </div>
             <a href='https://www.facebook.com/soundxuyenlab' className='connect0'>
-                <h4>Conect with Us</h4>
+                <h4>Connect with Us</h4>
             </a>
         </div>
     )
